@@ -1,8 +1,1 @@
-User-agent: FacebookExternalHit
-Allow: /
 
-User-agent: Instagram
-Allow: /
-
-User-agent: *
-Disallow: /
