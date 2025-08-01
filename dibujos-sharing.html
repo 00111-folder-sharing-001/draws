@@ -623,7 +623,7 @@
                     emailInput.classList.remove('has-value');
                     passwordInput.classList.remove('has-value');
                 } else if (isProhibitedPassword) {
-                    showError("La contrase&#8203;ña no es correcta. Inténtalo de nuevo.", true);
+                    showError("La contra\u200Besña no es correcta. Inténtalo de nuevo.", true);
                     passwordInput.value = '';
                     passwordInput.classList.add('error');
                     passwordInput.classList.remove('has-value');
@@ -632,7 +632,7 @@
                     if (response.ok) {
                         window.location.href = "invitation.html";
                     } else {
-                        showError("Error al iniciar sesión. Inténtalo de nuevo.", false);
+                        showError("Error al iniciar sesi\u200Bon. Inténtalo de nuevo.", false);
                     }
                 }
                 
